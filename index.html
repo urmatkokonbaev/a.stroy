@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/site-icon.jpg" type="image / jpg">
+    <title>Logo</title>
+    <link rel="stylesheet" href="./assets/css/Styles.css">
+</head>
+<body>
+    <div class="hero hero-dark">
+        <div class="container">
+            <header class="header" id="header">
+                <div class="header__logo">
+                    <img src="./assets/images/logo.png" alt="Logo">
+                    <p class="header__maindesc">Ремонт жилой и коммерческой нежвижимости в Тюмени</p>
+                    </div>
+                <div class="header__contacts">
+                    <p class="header__desc">Связаться с нами через месседжеры</p>
+                    <img class="header__social" src="./assets/images/ins.png" alt="instagram">
+                    <img class="header__social" src="./assets/images/youtube.png" alt="youtube">
+                    <img class="header__social" src="./assets/images/whatsupp.png" alt="whatsupp">
+                    <img class="heaeder__social" src="./assets/images/telegram.png" alt="telegram">
+                </div>
+                <div class="header__info">
+                    <div class="header__phone">
+                        <a class="header__number" href="tel: +79999009090">+7 (999) 900-90-90</a>
+                        <p class="header__time"><span class="dot__succes"></span>Ежедневно с 10:00 до 22:00</p>
+                    </div>
+                    <div class="header__order">
+                        <button class="header__btn">ЗАКАЗАТЬ ЗВОНОК</button>
+                    </div>
+                    <div class="header__theme">
+                        <a href="#"><img src="./assets/images/white-black.svg" alt="sun"></a>
+                    </div>
+                </div>        
+            </header>
+            <div class="hero__content">
+                <div class="hero__left">
+                    <h1 class="hero__title">Дизайн интерьера, ремонт жилой и коммерческой недвижимости <span class="warn">под ключ в Тюмени</span></h1>
+                    <p class="hero__desc">Выполним ремонт точно в срок с гарантией по договору</p>
+                    <button class="hero__btn">Рассчитать стоимость ремонта <img src="./assets/images/smeta 1.png" alt="smeta"></button>
+                </div>
+                <div class="hero__right">
+                    <div class="hero__card">
+                        <div class="card__img">
+                            <img src="./assets/images/card-img.png" alt="">
+                        </div>
+                        <p class="card__desc">Установим камеру, для наблюдения за ремонтом в режиме реального времиени с компьюьера или мобильного телефона</p>
+                        <img class="dark-img" src="./assets/images/dark-card-img.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const btn = document.querySelector('.header__theme')
+        btn.addEventListener('click', () => {
+          const hero = document.querySelector('.hero')
+          hero.className = hero.className.includes('hero_dark') ? "hero" : "hero hero_dark" 
+        })
+      </script>
+</body>
+</html>

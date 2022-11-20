@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/MontserratAlternates-Bold.woff2') format('woff2'),
+        url('../fonts/MontserratAlternates-Bold.woff') format('woff'),
+        url('../fonts/MontserratAlternates-Bold.ttf') format('truetype'),
+        url('../fonts/MontserratAlternates-Bold.svg#MontserratAlternates-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Regular.woff') format('woff'),
+        url('../fonts/Ubuntu-Regular.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Medium.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Medium.woff') format('woff'),
+        url('../fonts/Ubuntu-Medium.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Light.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Light.woff') format('woff'),
+        url('../fonts/Ubuntu-Light.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Light.svg#Ubuntu-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Bold.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Bold.woff') format('woff'),
+        url('../fonts/Ubuntu-Bold.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
